@@ -60,10 +60,10 @@ const { activeNav } = Astro.props;
         <ul id="menu-items" class="display-none sm:flex">
           <li>
             <a href="/posts" class={activeNav === "posts" ? "active" : ""}>
-              Posts
+              News
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="/tags" class={activeNav === "tags" ? "active" : ""}>
               Tags
             </a>
@@ -72,7 +72,7 @@ const { activeNav } = Astro.props;
             <a href="/about" class={activeNav === "about" ? "active" : ""}>
               About
             </a>
-          </li>
+          </li> -->
           <li>
             <LinkButton
               href="/search"
@@ -158,7 +158,7 @@ const { activeNav } = Astro.props;
     @apply col-span-1;
   }
   nav a.active {
-    @apply underline decoration-wavy decoration-2 underline-offset-4;
+    @apply underline decoration-2 underline-offset-4;
   }
   nav a.active svg {
     @apply fill-skin-accent;

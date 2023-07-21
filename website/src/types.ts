@@ -15,6 +15,12 @@ export type SocialObjects = {
   linkTitle: string;
 }[];
 
+export type LinksObjects = {
+  href: string;
+  linkTitle: string;
+  description: string;
+}[];
+
 export type SocialIcons = {
   [social in SocialMedia]: string;
 };
