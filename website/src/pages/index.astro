@@ -23,31 +23,22 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <main id="main-content">
     <section id="hero">
       <h1>ActivityBadges</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-      </a>
-
       <p>
         ActivityBadges is a specification currently being developed to overcome
-        the current limitations of Open Badges by adding a social networking
-        dimension using the <LinkButton
+        the limitations of <LinkButton
+          className="hover:text-skin-accent underline underline-offset-4"
+          href="https://openbadges.org/"
+          target="_blank"
+        >
+          Open Badges
+        </LinkButton> by adding a social networking dimension using the <LinkButton
           className="hover:text-skin-accent underline underline-offset-4"
           href="https://activitypub.rocks/"
+          target="_blank"
         >
           ActivityPub
-        </LinkButton> protocol.
+        </LinkButton> protocol. This additional layer opens up new possibilities
+        in terms of peer-to-peer exchanges and automation.
       </p>
       {
         // only display if at least one social link is enabled
@@ -75,7 +66,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         />
       </a>
       <p>
-        French version available <a
+        Click the image to open the presentation. French version available <a
           href="https://www.canva.com/design/DAFbDso-59U/KCvXDOgFOEgD_cwYT8qWTA/view"
           target="_blank"
           class="underline underline-offset-4 hover:text-skin-accent">here</a
@@ -103,7 +94,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </ul>
       <div class="all-posts-btn-wrapper">
         <LinkButton href="/posts">
-          All Posts
+          All News
           <svg xmlns="http://www.w3.org/2000/svg"
             ><path
               d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
@@ -123,11 +114,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <li class="my-6">
               <a
                 href={href}
-                class="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
+                class="inline-block text-lg font-medium text-skin-accent underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
               >
-                <h3 class="text-lg font-medium decoration-dashed hover:underline">
-                  {linkTitle}
-                </h3>
+                <h3 class="text-lg font-medium hover:underline">{linkTitle}</h3>
               </a>
               <p>{description}</p>
             </li>

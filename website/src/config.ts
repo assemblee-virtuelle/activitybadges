@@ -3,9 +3,9 @@ import type { Site, SocialObjects, LinksObjects } from "./types";
 export const SITE: Site = {
   website: "https://activitybadges.org/",
   author: "Sébastien Rosset",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "ActivityBadges is a specification currently being developed to overcome the limitations of Open Badges by adding a social networking dimension using the ActivityPub protocol.",
   title: "ActivityBadges",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "assets/presentation.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
@@ -30,17 +30,23 @@ export const LINKS: LinksObjects = [
     href: "https://openbadges.org/",
     linkTitle: "OpenBadges",
     description:
-      "Valuing and making visible non-formal and informal experiences and learning",
+      "Images with metadata to recognize informal experiences and learning",
   },
   {
     href: "https://activitypods.org/",
     linkTitle: "ActivityPods",
     description:
-      "A solution to easily create ActivityPub-compatible solution",
+      "A decentralized technology to easily create ActivityPub-compatible solutions",
   },
 ];
 
 export const SOCIALS: SocialObjects = [
+  {
+    name: "RSS",
+    href: "/rss.xml",
+    linkTitle: `RSS feed of ${SITE.title}`,
+    active: true,
+  },
   {
     name: "Github",
     href: "https://github.com/assemblee-virtuelle/activitybadges",

@@ -1,18 +1,22 @@
 ---
 author: Sébastien Rosset
 pubDatetime: 2023-05-31T15:22:00Z
-title: ADEME Open Call
+title: We are part of ADEME's Open Call
 postSlug: ademe-open-call
 featured: true
 draft: false
 tags:
-  - docs
+  - projects
 ogImage: ""
-description: For the second time, ADEME is offering a open call for proposals to fund projects that increase territorial resilience
+description: For the second time, the French Environment and Energy Management Agency (ADEME) is offering an open call to finance projects aimed at increasing the resilience of territories.
 ---
 
-For the second time, ADEME is offering a open call for proposals to fund projects that increase territorial resilience (https://wiki.resilience-territoire.ademe.fr).
+![ADEME open call](/assets/ademe.png)
 
-The association Les Jardiniers du Nous has responded to this call by proposing the "Badgeons la Transition" project, which can be seen on [this page](https://wiki.resilience-territoire.ademe.fr/wiki/Badgeons_la_transition). The technical solution proposed is ActivityBadges.
+For the second time, the French Environment and Energy Management Agency (ADEME) is offering an open call to finance projects aimed at increasing the resilience of territories (https://wiki.resilience-territoire.ademe.fr).
+
+The associations [Jardiniers du Nous](https://www.jardiniersdunous.org) and [Les Chemins de la Transition](https://lescheminsdelatransition.org) have responded to this call by proposing [Badgeons la Transition](<(https://wiki.resilience-territoire.ademe.fr/wiki/Badgeons_la_transition)>). This project, which aims to equip Transition actors with open badges, will be based on the ActivityBadges specification and ActivityPods technology.
+
+Both associations were particularly interested in the possibilities offered by ActivityBadges for peer-to-peer exchanges, without the need for a central authority to issue badges.
 
 A response is expected this summer.
