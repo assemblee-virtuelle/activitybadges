@@ -8,14 +8,14 @@ draft: false
 tags:
   - communication
 ogImage: ""
-description: We presented the ActivityBadges project at the Open Badges forum in Caen on 29 and 30 June 2023
+description: During the Open Badges forum in Caen on 29 and 30 June 2023, we presented the ActivityBadges project in a technical workshop.
 ---
 
 ![Open Badges Forum Caen](/assets/open-badges-forum-caen-1.png)
 
 The Open Badges Forum was held at the Dôme in Caen on 29 and 30 June 2023.
 
-We had the chance to co-host a technical workshop with Serge Ravet, president of the Reconnaître association.
+We had the chance to co-host a technical workshop with Serge Ravet, president of the [Open Recognition Alliance](https://www.openrecognition.org).
 
 After discussing the current limitations of Open Badges, we presented the ActivityBadges specification. Serge then presented [ORCA](https://www.linkedin.com/posts/reconnaitre_openrecognition-openbadges-plateformes-activity-7072553379557724160-dPoj), another technical solution that attempts to address the same issues in a different way.
 
