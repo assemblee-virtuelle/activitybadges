@@ -43,7 +43,7 @@ export const LINKS: LinksObjects = [
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/aseemblee-virtuelle/activitybadges",
+    href: "https://github.com/assemblee-virtuelle/activitybadges",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
