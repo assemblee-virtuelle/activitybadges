@@ -13,6 +13,36 @@ const { noMarginTop = false } = Astro.props;
 
 <footer class={`${noMarginTop ? "" : "mt-auto"}`}>
   <Hr noPadding />
+  <div class="pb-6 pt-12">
+    <h2 class="text-2xl font-semibold tracking-wide">Newsletter</h2>
+    <p class="mt-4">
+      Stay informed about the ActivityBadges project. One mailing per month max.
+    </p>
+    <form
+      method="POST"
+      action="https://b144bca4.sibforms.com/serve/MUIFANV_7g8WKGbIxo1ZjVV4E4oXyFOxkHW-IFDOvl8cyvFn1hdFqIXT-ffp4fGSt4SaSqymz6Fg-NZ6jGNH5H_xMqZis4Ax2URKeYsRaxCnWUqEnIsMOMejowzM-_qretX5YJiBfoRDf7TfQDK9LVRdHyLv2ncvUqh0IwSakpykgath3W6HUsyGlygG0qSpclC6s3RrYjs80sDY"
+    >
+      <div class="mb-4 mt-4 flex flex-row">
+        <input
+          type="text"
+          name="EMAIL"
+          autocomplete="off"
+          placeholder="Your email address"
+          required
+          class="basis-3/4 rounded-l-lg border border-skin-fill border-opacity-40 bg-skin-fill p-3 placeholder:italic placeholder:text-opacity-75 focus:border-skin-accent focus:outline-none"
+        />
+        <input type="hidden" name="email_address_check" value="" />
+        <input type="hidden" name="locale" value="en" />
+        <input type="hidden" name="html_type" value="simple" />
+        <button
+          type="submit"
+          class="basis-1/4 rounded-r-lg bg-skin-accent px-5 py-3 font-bold"
+          >Subscribe</button
+        >
+      </div>
+    </form>
+  </div>
+  <Hr noPadding />
   <div class="footer-wrapper">
     <Socials centered />
     <div class="copyright-wrapper">
